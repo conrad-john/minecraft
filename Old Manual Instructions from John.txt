@@ -1,0 +1,49 @@
+This file was last updated on 9/5/21 for release 1.17.1
+----------------------------------------------------------------------------------------------------------------
+1. Install Java by running "jre-8u281-windows-x64.exe" and proceeding through the Install Wizard
+
+2. Install OptiFine by navigating to the folder you have the OptiFine_1.16.5_HD_U_G6.jar file
+	In the navigation tab at the top of the file explorer, click in so it highlights the filepath, and type "cmd" then hit enter
+	This will open a command prompt... do not fear, and no you are not a hacker now
+	type the next line into the command line interface and hit enter:
+	java -jar OptiFine_1.17.1_HD_U_G9.jar
+	Click Install then OK then close the command prompt window
+
+3. Boot in the OptiFine mode
+	Open Minecraft Launcher
+	Before you hit play for the Java Edition, there should be a little Minecraft Grass Block Icon and and text that says "Latest Release v1.17.1" or something
+	Click that to open the dropdown window, and select "OptiFine: 1.17.1-OptiFine..."
+	Now Hit Play
+
+4. Install the Shader
+	In Minecraft Java, while running the OptiFine Installation...
+	From the Main Menu, select Options >> Video Settings >> Shaders
+	Click the TEXT BOX that says Shaders Folder -> NOT THE LITTLE DOWNLOAD ARROW, that redirects you to a webpage
+	Selecting the Shaders Folder Box should open a file explorer window with a path like:
+	"...\.minecraft\shaderpacks"
+	Drag and drop the Compressed/Zip folder "BSL_v8.1" into that shaderpacks folder
+	A new option should have appeared in the Minecraft Shaders Interface, you had "OFF" and "(internal)"
+	Select the new option that says "BSL_v8.1.zip"
+	Minecraft will show a loading screen as it initializes the shader
+
+5. Install Jerms Better Leaves Resource Pack
+	Next, from the main menu go to Options >> Resource Packs
+	Click "Open Pack Folder" at the bottom left
+	Drag and Drop the "Better+Leaves+Add-on+V2.6-1.17.zip" compressed folder into the "resourcepacks" folder
+	Close the file explorer window, and back in the Minecraft app, hover over the icon for Better Leaves that just appeared
+	Click the little play arrow looking button to move it from the "Available" column to "Selected"
+	You should get another loading screen as it initializes the resource pack, then you're done!!!
+
+6. Enjoy
+
+7. Realize that this isn't permanent
+	With each release of minecraft (i.e. when they go to 1.17.2 from 1.17.1) we're going to have to do this again
+	This is a good opportunity to learn how to do this yourself OR
+	Bug Haley to bug me because I'll likely have downloaded the install files
+	For the latest files:
+	... new jar files can be found at https://optifine.net/downloads
+	... new BSL files can be found at https://resourcepack.net/bsl-shaders/
+	... new Better Leaves files can be found at https://www.curseforge.com/minecraft/texture-packs/better-leaves-add-on-2-0/download
+
+Cheers,
+John
