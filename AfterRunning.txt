@@ -1,0 +1,24 @@
+If this openned after you ran that executable, everything should have worked.
+
+Below are the last three steps. If the things I tell you to click in Minecraft aren't there, something went wrong. In the folder is a document with the old manual instructions I wrote. This file is aptly named "Manual Instructions.txt".
+
+1. Boot in the OptiFine mode
+	Open Minecraft Launcher
+	Before you hit play for the Java Edition, there should be a little Minecraft Grass Block Icon and and text that says "Latest Release v1.18.2" or something
+	Click that to open the dropdown window, and select "OptiFine: 1.18.1-OptiFine..." or something like that
+	Now Hit Play
+	* Minecraft Launcher will remember you booted in OptiFine mode next time, so you won't have to do this every time
+
+2. Install the Shader
+	In Minecraft Java, while running the OptiFine Installation...
+	From the Main Menu, select Options >> Video Settings >> Shaders
+	There should be an option in the Minecraft Shaders Interface that says "BSL_v8.1.02.2.zip" or something
+	Click on that option
+	Minecraft will show a loading screen as it initializes the shader
+	Then go back to the Main Menu
+
+3. Install Jerms Better Leaves Resource Pack
+	Next, from the main menu go to Options >> Resource Packs
+	Hover over the icon for Better Leaves
+	Click the little play arrow looking button to move it from the "Available" column to "Selected"
+	You should get another loading screen as it initializes the resource pack, then you're done!!!

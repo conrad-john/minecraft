@@ -16,8 +16,14 @@ Start-Process -FilePath "C:\Program Files\Java\jre1.8.0_281\bin\java.exe" -Argum
 
 # Copy BSL to shaderpacks folder
 $BslPath = $PSScriptRoot + "\" + $BslVersion
-Copy-Item -Path $BslPath #-Destination [TargetFolder]
+$shaderpacksPath = $env:APPDATA + "\Roaming\.minecraft\shaderpacks"
+Copy-Item -Path $BslPath -Destination $shaderpacksPath
 
 # Copy Better Leaves to resourcepacks folder
 $BetterLeavesPath = $PSScriptRoot + "\" + $BetterLeavesVersion
-Copy-Item -Path $BetterLeavesPath #-Destination [TargetFolder]
+$resourcepacksPath = $env:APPDATA + "\Roaming\.minecraft\resourcepacks"
+Copy-Item -Path $BetterLeavesPath -Destination $resourcepacksPath
+
+# Open Read Me
+$readMePath = $PSScriptRoot + "\AfterRunning.txt"
+Invoke-Item -Path $readMePath
